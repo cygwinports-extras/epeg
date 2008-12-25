@@ -1,0 +1,8 @@
+--- origsrc/epeg-0.9.1.042/src/lib/Makefile.am	2007-11-13 00:01:32.000000000 -0600
++++ src/epeg-0.9.1.042/src/lib/Makefile.am	2008-12-25 16:02:34.099875000 -0600
+@@ -11,4 +11,4 @@
+ 
+ libepeg_la_LIBADD       = @my_libs@
+ libepeg_la_DEPENDENCIES = $(top_builddir)/config.h
+-libepeg_la_LDFLAGS      = -version-info @version_info@
++libepeg_la_LDFLAGS      = -version-info @version_info@ -no-undefined
