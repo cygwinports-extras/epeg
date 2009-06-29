@@ -1,5 +1,5 @@
 category: Graphics
-requires: cygwin libepeg0
+requires: libepeg0
 sdesc: "Enlightenment JPEG library (utilities)"
 ldesc: "Epeg is a convenience library API to using libjpeg to load JPEG 
 images destined to be turned into thumbnails of the original, saving 

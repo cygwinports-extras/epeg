@@ -1,5 +1,5 @@
 category: Graphics
-requires: cygwin libepeg0 libjpeg-devel
+requires: libepeg0 libjpeg-devel
 external-source: epeg
 sdesc: "Enlightenment JPEG library (development)"
 ldesc: "Epeg is a convenience library API to using libjpeg to load JPEG 
